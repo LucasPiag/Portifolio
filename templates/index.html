@@ -369,12 +369,13 @@
                         <div class="row row-cols-1 row-cols-md-3 g-4">  
                             <div class="col">
                               <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <img src="../static/img/bo.jpg" class="card-img-top" alt="img_pikachu">
                                 <div class="card-body">
-                                  <h5 class="card-title">Card title</h5> <!--titulo projeto-->
-                                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> <!--descrição do projeto-->
+                                  <h5 class="card-title">Pokedex</h5> <!--titulo projeto-->
+                                  <p class="card-text">Pokédex desenvolvida com HTML, CSS e JavaScript.</p> <!--descrição do projeto-->
                                     <div class="d-flex justify-content-center"> <!--DIV focada em linkar o local do projeto e o github-->
-                                        <a href="/" target="_blank" class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a> <!--link do projeto,a tag "i" é para adicionar um icone no link-->
+                                        <a href="https://pokedex-project-blue.vercel.app/" target="_blank" class="btn btn-outline-primary me-3"><i class="bi bi-link-45deg"></i></a> <!--link do projeto,a tag "i" é para adicionar um icone no link-->
+                                        <a href="https://github.com/LucasPiag/Pokedex_Project" target="_blank" class="btn btn-outline-dark"><i class="bi bi-github"></i></a> <!--link do projeto,a tag "i" é para adicionar um icone no link-->
                                     </div>
                                 </div>
                               </div>
@@ -425,7 +426,65 @@
 
         </section>
 
-        <section>
+        <section class="pt-5 pb-5" id="contato">
+
+            <div class="container mb-5">
+                <h2 class="pt-3 pb-3">Contato</h2>
+
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                                <p>São Paulo - SP</p>
+                            </div>
+
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i> Email:</h4>
+                                <p>lucaspiagnoo@gmail.com</p>
+                            </div>
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.826728194252!2d-46.66387602318319!3d-23.466
+                            71381539707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef766332d10a5%3A0x331b151242356db6!2sVila%20Dionis
+                            ia%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1693241467700!5m2!1spt-BR!2sbr"
+                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class=" card p-5 h-100 shadow border-0">
+
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="nome" class="form-label">Nome:</label>
+                                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
+                                </div>
+
+                                <div class="col-md-6">
+                                  <label for="email" class="form-label">Email:</label>
+                                  <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+                                </div>
+
+                                <div class="col-12">
+                                  <label for="mensagem" class="form-label">Mensagem:</label>
+                                  <textarea type="text" class="form-control" id="mensagem" placeholder="Digite sua mensagem :D" name="mensagem" rows="10"></textarea>
+                                </div>
+
+                                <div class="col-12 d-flex justify-content-center mt-4">
+                                  <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
             
         </section>
 
